@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title></title>
+  </head>
+  <body>
+
+<form action="#" method="post" class="form">
+  <div class="form__row">
+    <input class="form__input" type="text" pattern="\D [^0-9]" required name="first-name" placeholder="First name">
+    <input class="form__input" type="text" name="last-name" placeholder="Last name">
+  </div>
+  <div class="form__row">
+    <input class="form__input" type="email" name="email" placeholder="Email address">
+  </div>
+  <div class="form__row">
+    <textarea class="form__input" name="about" cols="30" rows="3" placeholder="Something about you"></textarea>
+  </div>
+  <div class="form__row">
+    <input class="form__input" type="password" name="password" placeholder="Password">
+    <input class="form__input" type="password" name="confirm-password" placeholder="Confirm password">
+  </div>
+  <form>
+  <select name="country" class="form__input">
+    <option value="Ukraine" selected>Ukraine</option>
+    <option value="Denmark">Denmark</option>
+    <option value="Earth">Earth</option>
+    <option value="Honduras">Honduras</option>
+  </select>
+
+    <div class="form__input--radio">
+  <input type="radio" name="sex" value="Male" checked> Male
+  <input type="radio" name="sex" value="Female"> Female
+  <input type="radio" name="sex" value="Kid"> Kid
+  </div>
+    <div class="form__input--checkbox">
+    <input type="checkbox" name="subscribe" value="Subscribe"> Subscribe for best and awesome blog ever!
+    </div>
+
+  <div class="form__row">
+    <button class="form__submit" type="submit">Sign up for free</button>
+  </div>
+  <div class="form__row">
+    <button class="form__reset" type="reset">Reset form</button>
+  </div>
+</body>
+</html>
